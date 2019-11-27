@@ -86,5 +86,7 @@ int main()
 
         array_output(arr_1, n);
         array_output(arr_2, n);
+        delete[] arr_1;
+        delete[] arr_2;
         return 0;
 }
